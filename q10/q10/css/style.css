@@ -1,1 +1,76 @@
 @charset "UTF-8";
+
+.boxflex {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  padding: 0 15px;
+  line-height: 50px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 30px;
+  border-radius: 10px;
+  color: #fff;
+  user-select: none;
+}
+.red {
+  background-color: #fd0f0fd9;
+}
+.blue {
+  background-color: #170ffdd9;
+}
+.green {
+  background-color: #0ffd0fd9;
+  color: #000;
+}
+
+.r-shadow {
+  box-shadow: 0 5px 0 rgb(63 5 5 / 85%);
+}
+.b-shadow {
+  box-shadow: 0 5px 0 rgb(5 13 63 / 85%)
+}
+.g-shadow {
+  box-shadow: 0 5px 0 rgb(5 63 5 / 85%);
+}
+
+.ac:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+
+.double {
+  color: #67c5ff;
+  border: 4px double #67c5ff;
+  transition: all .3s;
+}
+.double:hover {
+  background-color: #fffbef;
+}
+
+.dot {
+  color: #67c5ff;
+  border: 4px dotted #67c5ff;
+  transition: all .3s;
+}
+.dot:hover {
+  border: 4px dashed #67c5ff;
+}
+
+.dash {
+  color: #0079a5f8;
+  background-color: #d0edfff8;
+  border: 4px dashed #67c5ff;
+  transition: all .3s;
+}
+.dash:hover {
+  color: #67c5ff;
+  background-color: #fff;
+}
+
+
+
+

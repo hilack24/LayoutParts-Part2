@@ -1,1 +1,30 @@
 @charset "UTF-8";
+
+.fkds {
+  position: relative;
+  width: 500px;
+  padding: 20px;
+  background-color: #fad296;
+  border: 5px solid #8f5a0a;
+  border-radius: 30px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.fkds:before,.fkds:after {
+  content: "";
+  position: absolute;
+  border: 20px solid transparent;
+  left: 30px;
+}
+
+.fkds:before {
+  border-top: 20px solid #8f5a0a;
+  bottom: -45px;
+}
+
+.fkds:after {
+  border-top: 20px solid #fad296;
+  bottom: -38px;
+}
